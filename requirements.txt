@@ -1,0 +1,48 @@
+# TikTok Stealth Analyzer Requirements
+# For authorized red team security assessment
+
+# Core TikTok API
+TikTokApi==7.1.0
+playwright==1.54.0
+
+# HTTP and async support
+aiohttp==3.11.14
+asyncio
+httpx==0.28.1
+
+# Data processing and analysis
+pandas==2.2.3
+numpy==2.2.4
+
+# Browser cookie extraction for token harvesting
+browser-cookie3==0.19.1
+pycryptodomex==3.20.0
+
+# Proxy and network utilities
+requests==2.32.3
+urllib3==2.3.0
+
+# JSON and data handling
+jsonschema==4.23.0
+
+# Logging and monitoring
+structlog==24.4.0
+
+# Security and cryptography
+cryptography==43.0.3
+
+# Optional: Database support for large-scale analysis
+# sqlite3 (built-in)
+# psycopg2==2.9.9  # PostgreSQL support
+
+# Optional: Advanced data analysis
+# scikit-learn==1.6.0
+# matplotlib==3.9.2
+# seaborn==0.13.2
+
+# Development and testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+
+# Network security
+certifi==2025.1.31

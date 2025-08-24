@@ -1,0 +1,94 @@
+# TikTok Stealth Analyzer - Git Ignore File
+
+# Sensitive authentication data
+tiktok_tokens.json
+*.token
+*.auth
+cookies.txt
+
+# Analysis output data
+*.csv
+*_analysis_*.json
+tiktok_analysis_output/
+proxy_stats.json
+tiktok_analysis.log
+
+# Proxy configuration (may contain sensitive info)
+proxy_list.txt
+proxies.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Playwright browsers
+playwright/
+
+# Test output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Personal notes and configurations
+notes.txt
+personal_config.json
+test_*.py
+debug_*.py
+
+# Browser data
+browser_data/
+session_data/

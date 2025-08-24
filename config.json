@@ -1,0 +1,64 @@
+{
+  "rate_limits": {
+    "requests_per_hour": 50,
+    "requests_per_session": 100,
+    "session_duration_minutes": 30,
+    "max_videos_per_request": 30,
+    "max_hashtag_searches": 5
+  },
+  "stealth": {
+    "min_delay": 3.0,
+    "max_delay": 12.0,
+    "burst_delay": 25.0,
+    "thinking_pause_chance": 0.15,
+    "thinking_pause_duration": [5, 15],
+    "randomize_user_agents": true,
+    "rotate_proxies": true,
+    "human_behavior_simulation": true,
+    "session_break_after_requests": 50,
+    "session_break_duration": [600, 1800]
+  },
+  "analysis": {
+    "hashtag_analysis_depth": 50,
+    "engagement_weight_likes": 1,
+    "engagement_weight_shares": 3,
+    "engagement_weight_comments": 5,
+    "trend_categories": {
+      "commercial": ["shop", "sale", "deal", "buy", "brand", "product", "ad", "discount"],
+      "seasonal": ["summer", "winter", "fall", "spring", "holiday", "christmas", "halloween", "valentine"],
+      "entertainment": ["dance", "music", "comedy", "funny", "viral", "meme", "challenge"],
+      "lifestyle": ["fitness", "beauty", "fashion", "food", "travel", "health", "wellness"],
+      "educational": ["learn", "how", "tip", "hack", "tutorial", "diy", "guide", "facts"],
+      "technology": ["tech", "ai", "app", "gaming", "code", "digital", "cyber", "innovation"]
+    },
+    "export_formats": ["json", "csv", "analysis_report"]
+  },
+  "security": {
+    "log_requests": true,
+    "log_level": "INFO",
+    "save_tokens": true,
+    "validate_responses": true,
+    "anonymize_user_data": true,
+    "secure_token_storage": true
+  },
+  "proxy_configuration": {
+    "rotation_strategy": "weighted_random",
+    "health_check_interval": 300,
+    "max_failures_per_proxy": 5,
+    "proxy_timeout": 10,
+    "retry_failed_proxies_after": 1800
+  },
+  "output": {
+    "base_directory": "/Users/matth/tiktok_analysis_output",
+    "filename_template": "tiktok_analysis_{timestamp}",
+    "include_metadata": true,
+    "compress_exports": false
+  },
+  "compliance": {
+    "respect_robots_txt": true,
+    "honor_rate_limits": true,
+    "data_retention_days": 30,
+    "anonymize_sensitive_data": true,
+    "ethical_use_only": true
+  }
+}
