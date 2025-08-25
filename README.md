@@ -7,20 +7,20 @@
 
 > **⚠️ AUTHORIZED USE ONLY**: This tool is designed exclusively for authorized red team security assessments. Ensure proper authorization and compliance with all applicable laws and platform terms of service.
 
-## 🎯 Overview
+## Overview
 
 TikTok Stealth Analyzer is a comprehensive toolkit for analyzing TikTok trends and content patterns as part of authorized security assessments. It includes advanced stealth capabilities to avoid detection while gathering intelligence on social media trends, hashtag analysis, and content patterns.
 
 ### Key Features
 
-- **🔐 Advanced Stealth**: Token extraction, proxy rotation, request randomization
-- **📊 Comprehensive Analysis**: Hashtag trends, engagement metrics, content categorization
-- **🛡️ Security Focused**: Rate limiting, ethical constraints, audit logging
-- **📈 Trend Intelligence**: Real-time trend analysis, temporal tracking, predictive insights
-- **🌐 Proxy Support**: Automatic proxy rotation with health monitoring
-- **🎭 Anti-Detection**: Human behavior simulation, request pattern randomization
+- ** Advanced Stealth**: Token extraction, proxy rotation, request randomization
+- ** Comprehensive Analysis**: Hashtag trends, engagement metrics, content categorization
+- ** Security Focused**: Rate limiting, ethical constraints, audit logging
+- ** Trend Intelligence**: Real-time trend analysis, temporal tracking, predictive insights
+- ** Proxy Support**: Automatic proxy rotation with health monitoring
+- ** Anti-Detection**: Human behavior simulation, request pattern randomization
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -71,7 +71,7 @@ print(f"Collected {results['execution_summary']['total_videos_collected']} video
 print(f"Stealth score: {results['stealth_metrics']['stealth_score']}/100")
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### config.json
 ```json
@@ -93,7 +93,7 @@ print(f"Stealth score: {results['stealth_metrics']['stealth_score']}/100")
 }
 ```
 
-## 📚 Components
+## Components
 
 ### Core Modules
 
@@ -112,7 +112,7 @@ print(f"Stealth score: {results['stealth_metrics']['stealth_score']}/100")
 - **Temporal Tracking**: Trend velocity and growth pattern analysis
 - **Author Analysis**: Content creator performance and influence metrics
 
-## 🛡️ Security Features
+##  Security Features
 
 ### Stealth Capabilities
 - **Token Rotation**: Automatic authentication token refresh
@@ -132,7 +132,7 @@ print(f"Stealth score: {results['stealth_metrics']['stealth_score']}/100")
 - Audit logging of all requests
 - Data anonymization options
 
-## 📊 Output Formats
+##  Output Formats
 
 ### JSON Export
 Complete dataset with metadata, engagement metrics, and collection timestamps.
@@ -143,7 +143,7 @@ Flattened data suitable for spreadsheet analysis and visualization.
 ### Analysis Reports
 Comprehensive trend analysis with insights and recommendations.
 
-## 🔍 Example Analysis Results
+##  Example Analysis Results
 
 ```json
 {
@@ -195,7 +195,7 @@ However, detection is still possible. Always:
 - Follow conservative rate limits
 - Monitor for detection indicators
 
-## 🔧 Advanced Configuration
+## Advanced Configuration
 
 ### Proxy Setup
 ```python
@@ -235,7 +235,7 @@ custom_config = {
 analyzer = TikTokStealthAnalyzer(config=custom_config)
 ```
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.9+
 - TikTokApi 7.1.0+
@@ -246,7 +246,7 @@ analyzer = TikTokStealthAnalyzer(config=custom_config)
 
 See `requirements.txt` for complete dependency list.
 
-## 🤝 Contributing
+##  Contributing
 
 This tool is designed for security research purposes. Contributions should focus on:
 - Enhanced stealth capabilities
@@ -268,7 +268,7 @@ This tool is provided for authorized security assessment purposes only. Users ar
 
 The authors assume no responsibility for misuse or unauthorized use of this tool.
 
-## 📞 Support
+## Support
 
 For issues related to authorized security assessments:
 - Review the documentation thoroughly
